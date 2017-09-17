@@ -2,7 +2,6 @@
 
 This application illustrates and demonstrates SERVLET/JSP Model 2 Pattern with Filters as the controller and Servlets used to serve AJAX requests.
 
-<br>
 **Libraries & Tools used**
 
 * Apache Shiro (Authentication & Authorization)
@@ -12,7 +11,6 @@ This application illustrates and demonstrates SERVLET/JSP Model 2 Pattern with F
 * Gentelella HTML Template
 * DB Migrator (Maven Database Migration)
 
-<br>
 **Installation**
 1. Configure MySQL credentials for DB Migrator in src\main\resources\database.properties
 2. Run mvn db-migrator:create db-migrator:migrate
@@ -23,7 +21,6 @@ This application illustrates and demonstrates SERVLET/JSP Model 2 Pattern with F
 7. Goto http://localhost:8080/Pyramid in your browser
 7. Login admin:admin or guest:guest
 
-<br>
 **A screenshot of the application**
 --
 <img src="http://i68.tinypic.com/2vj4xtw.jpg"/>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<dto-classes xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="dto.xsd">
+    <dto-class name="Applicationuser" ref="applicationuser"/>
+    <dto-class name="Appuser" ref="appuser"/>
+    <dto-class name="AuditCashexpensepostingsetup" ref="audit_cashexpensepostingsetup"/>
+    <dto-class name="AuditGlaccount" ref="audit_glaccounts"/>
+    <dto-class name="AuditPostingsetup" ref="audit_postingsetup"/>
+    <dto-class name="Businessday" ref="businessday"/>
+    <dto-class name="Cashexpenseposting" ref="cashexpenseposting"/>
+    <dto-class name="Cashexpensepostingsetup" ref="cashexpensepostingsetup"/>
+    <dto-class name="Doubleentry" ref="doubleentry"/>
+    <dto-class name="Glaccount" ref="glaccounts"/>
+    <dto-class name="Glamount" ref="glamounts"/>
+    <dto-class name="Permissionentity" ref="permissionentity"/>
+    <dto-class name="Postingsetup" ref="postingsetup"/>
+    <dto-class name="Resource" ref="resource"/>
+    <dto-class name="Role" ref="role"/>
+    <dto-class name="RoleAppuser" ref="role_appuser"/>
+    <dto-class name="Sequence" ref="sequence"/>
+    <dto-class name="Transaction" ref="transactions"/>
+    <dto-class name="Trialbalance" ref="trialbalance"/>
+</dto-classes>

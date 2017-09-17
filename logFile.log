@@ -1,0 +1,50 @@
+2017-09-08 02:07:48 | INFO  | [main] o.a.s.w.e.EnvironmentLoader:128 - Starting Shiro environment initialization.
+2017-09-08 02:07:48 | DEBUG | [main] o.a.s.w.e.IniWebEnvironment:76 - Checking any specified config locations.
+2017-09-08 02:07:48 | DEBUG | [main] o.a.s.w.e.IniWebEnvironment:81 - No INI instance or config locations specified.  Trying default config locations.
+2017-09-08 02:07:48 | DEBUG | [main] o.a.s.c.Ini:342 - Parsing [main]
+2017-09-08 02:07:48 | DEBUG | [main] o.a.s.c.Ini:342 - Parsing [urls]
+2017-09-08 02:07:48 | DEBUG | [main] o.a.s.w.e.IniWebEnvironment:136 - Discovered non-empty INI configuration at location '/WEB-INF/shiro.ini'.  Using for configuration.
+2017-09-08 02:07:48 | DEBUG | [main] o.a.s.c.IniFactorySupport:122 - Creating instance from Ini [sections=main,urls]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.c.ReflectionBuilder:238 - Encountered object reference '$ds'.  Looking up object with id 'ds'
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.c.ReflectionBuilder:238 - Encountered object reference '$passwordMatcher'.  Looking up object with id 'passwordMatcher'
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.r.AuthorizingRealm:234 - No authorizationCache instance set.  Checking for a cacheManager...
+2017-09-08 02:07:49 | INFO  | [main] o.a.s.r.AuthorizingRealm:248 - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.c.IniFactorySupport:122 - Creating instance from Ini [sections=main,urls]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:127 - Creating chain [/] from String definition [authc]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:278 - Attempting to apply path [/] to filter [authc] with config [null]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:127 - Creating chain [/login.jsp] from String definition [authc]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:278 - Attempting to apply path [/login.jsp] to filter [authc] with config [null]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:127 - Creating chain [/logout.jsp] from String definition [logout]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:278 - Attempting to apply path [/logout.jsp] to filter [logout] with config [null]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:127 - Creating chain [/app/index.jsp] from String definition [authc]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:278 - Attempting to apply path [/app/index.jsp] to filter [authc] with config [null]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:127 - Creating chain [/hello] from String definition [anon, authc]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:278 - Attempting to apply path [/hello] to filter [anon] with config [null]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:278 - Attempting to apply path [/hello] to filter [authc] with config [null]
+2017-09-08 02:07:49 | DEBUG | [main] o.a.s.w.e.EnvironmentLoader:136 - Published WebEnvironment as ServletContext attribute with name [org.apache.shiro.web.env.EnvironmentLoader.ENVIRONMENT_ATTRIBUTE_KEY]
+2017-09-08 02:07:49 | INFO  | [main] o.a.s.w.e.EnvironmentLoader:141 - Shiro environment initialized in 586 ms.
+2017-09-08 02:16:25 | INFO  | [main] o.a.s.w.e.EnvironmentLoader:128 - Starting Shiro environment initialization.
+2017-09-08 02:16:25 | DEBUG | [main] o.a.s.w.e.IniWebEnvironment:76 - Checking any specified config locations.
+2017-09-08 02:16:25 | DEBUG | [main] o.a.s.w.e.IniWebEnvironment:81 - No INI instance or config locations specified.  Trying default config locations.
+2017-09-08 02:16:25 | DEBUG | [main] o.a.s.c.Ini:342 - Parsing [main]
+2017-09-08 02:16:25 | DEBUG | [main] o.a.s.c.Ini:342 - Parsing [urls]
+2017-09-08 02:16:25 | DEBUG | [main] o.a.s.w.e.IniWebEnvironment:136 - Discovered non-empty INI configuration at location '/WEB-INF/shiro.ini'.  Using for configuration.
+2017-09-08 02:16:25 | DEBUG | [main] o.a.s.c.IniFactorySupport:122 - Creating instance from Ini [sections=main,urls]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.c.ReflectionBuilder:238 - Encountered object reference '$ds'.  Looking up object with id 'ds'
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.c.ReflectionBuilder:238 - Encountered object reference '$passwordMatcher'.  Looking up object with id 'passwordMatcher'
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.r.AuthorizingRealm:234 - No authorizationCache instance set.  Checking for a cacheManager...
+2017-09-08 02:16:26 | INFO  | [main] o.a.s.r.AuthorizingRealm:248 - No cache or cacheManager properties have been set.  Authorization cache cannot be obtained.
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.c.IniFactorySupport:122 - Creating instance from Ini [sections=main,urls]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:127 - Creating chain [/] from String definition [authc]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:278 - Attempting to apply path [/] to filter [authc] with config [null]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:127 - Creating chain [/login.jsp] from String definition [authc]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:278 - Attempting to apply path [/login.jsp] to filter [authc] with config [null]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:127 - Creating chain [/logout.jsp] from String definition [logout]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:278 - Attempting to apply path [/logout.jsp] to filter [logout] with config [null]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:127 - Creating chain [/app/index.jsp] from String definition [authc]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:278 - Attempting to apply path [/app/index.jsp] to filter [authc] with config [null]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:127 - Creating chain [/hello] from String definition [anon, authc]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:278 - Attempting to apply path [/hello] to filter [anon] with config [null]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.w.f.m.DefaultFilterChainManager:278 - Attempting to apply path [/hello] to filter [authc] with config [null]
+2017-09-08 02:16:26 | DEBUG | [main] o.a.s.w.e.EnvironmentLoader:136 - Published WebEnvironment as ServletContext attribute with name [org.apache.shiro.web.env.EnvironmentLoader.ENVIRONMENT_ATTRIBUTE_KEY]
+2017-09-08 02:16:26 | INFO  | [main] o.a.s.w.e.EnvironmentLoader:141 - Shiro environment initialized in 590 ms.

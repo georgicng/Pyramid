@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<Context>
+
+  <Resource name="jdbc/pyramid" auth="Container" type="javax.sql.DataSource"
+               maxActive="50" maxIdle="30" maxWait="10000"
+               username="roott" password="password"
+               driverClassName="com.mysql.jdbc.Driver"
+               url="jdbc:mysql://localhost:3306/pyramid"/>
+
+</Context>

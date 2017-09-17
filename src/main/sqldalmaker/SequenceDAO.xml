@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<dao-class
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='dao.xsd'>
+    <crud dto="Sequence" table="sequence">
+        <create method="createSequence"/>
+        <read-all method="readSequenceList"/>
+        <read method="readSequence"/>
+        <update method="updateSequence"/>
+        <delete method="deleteSequence"/>
+    </crud>
+</dao-class>

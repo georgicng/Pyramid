@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="windows-1252"?>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+
+
+<dao-class
+    xmlns:xsi='http://www.w3.org/2001/XMLSchema-instance'
+    xsi:noNamespaceSchemaLocation='dao.xsd'>
+    <crud dto="Resource" table="resource">
+        <create method="createResource"/>
+        <read-all method="readResourceList"/>
+        <read method="readResource"/>
+        <update method="updateResource"/>
+        <delete method="deleteResource"/>
+    </crud>
+</dao-class>

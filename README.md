@@ -1,42 +1,29 @@
-# Apache Shiro
+# Pyramid: A SERVLET/JSP Example
 
-This application illustrates and demonstrates use of the Apache Shiro JDBC Realm with MySQL Database and Java web application(JSF2.2) 
-
-<br>
-**Exemplified topics**
-
-* Authentication
-* Authorization
-* JDBC Realm
-* RememberMe functionality
+This application illustrates and demonstrates SERVLET/JSP Model 2 Pattern with Filters as the controller and Servlets used to serve AJAX requests.
 
 <br>
-**SQL Schema**
---
-<pre>
+**Libraries & Tools used**
 
-CREATE DATABASE `shiro`;
+* Apache Shiro (Authentication & Authorization)
+* DBUtils (Database connectivity)
+* SQLDALMAKER (DAO Generator)
+* Logback (Logging)
+* Gentelella HTML Template
+* DB Migrator (Maven Database Migration)
 
-USE `shiro`;
-
-CREATE TABLE `user` (
-  `id` int(11) NOT NULL AUTO_INCREMENT,
-  `username` varchar(100) COLLATE utf8_turkish_ci NOT NULL,
-  `password` varchar(100) COLLATE utf8_turkish_ci NOT NULL,
-  PRIMARY KEY (`id`),
-  UNIQUE KEY `username_UNIQUE` (`username`)
-) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
-
-CREATE TABLE `userroles` (
-  `userID` int(11) NOT NULL,
-  `role` varchar(50) COLLATE utf8_turkish_ci NOT NULL,
-  PRIMARY KEY (`userID`)
-) ENGINE=InnoDB DEFAULT CHARSET=utf8 COLLATE=utf8_turkish_ci;
-
-
-</pre>
+<br>
+**Installation**
+1. Configure MySQL credentials for DB Migrator in src\main\resources\database.properties
+2. Run mvn db-migrator:create db-migrator:migrate
+3. Configure MySQL credentials for Shiro in src\main\webapp\WEB-INF\shiro.ini
+4. Configure MySQL credentials for Tomcat in src\main\webapp\META-INF\context.xml
+5. Run mvn package
+6. Deploy WAR file to Tomcat
+7. Goto http://localhost:8080/Pyramid in your browser
+7. Login admin:admin or guest:guest
 
 <br>
 **A screenshot of the application**
 --
-<img src="http://i59.tinypic.com/2mxio37.png"/>
+<img src="http://i68.tinypic.com/2vj4xtw.jpg"/>

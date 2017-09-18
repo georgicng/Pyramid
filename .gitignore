@@ -1,6 +1,7 @@
 target/
 gentelella-master/
 bck/
+nbactions.xml
 pom.xml.tag
 pom.xml.releaseBackup
 pom.xml.versionsBackup

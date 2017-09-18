@@ -1,59 +1,68 @@
+<%@ taglib uri="http://java.sun.com/jsp/jstl/core" prefix="c" %>
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <!-- Meta, title, CSS, favicons, etc. -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+        <!-- Meta, title, CSS, favicons, etc. -->
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <title>Pyramid Accounting | Login </title>
+        <title>Pyramid Accounting | Login </title>
 
-    <!-- Bootstrap -->
-    <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
-    <!-- Font Awesome -->
-    <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-    <!-- NProgress -->
-    <link href="vendors/nprogress/nprogress.css" rel="stylesheet">
-    <!-- Animate.css -->
-    <link href="vendors/animate.css/animate.min.css" rel="stylesheet">
+        <!-- Bootstrap -->
+        <link href="vendors/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet">
+        <!-- Font Awesome -->
+        <link href="vendors/font-awesome/css/font-awesome.min.css" rel="stylesheet">
+        <!-- NProgress -->
+        <link href="vendors/nprogress/nprogress.css" rel="stylesheet">
+        <!-- Animate.css -->
+        <link href="vendors/animate.css/animate.min.css" rel="stylesheet">
 
-    <!-- Custom Theme Style -->
-    <link href="assets/css/custom.min.css" rel="stylesheet">
-  </head>
+        <!-- Custom Theme Style -->
+        <link href="assets/css/custom.min.css" rel="stylesheet">
+    </head>
 
-  <body class="login">
-    <div>
-      <a class="hiddenanchor" id="signin"></a>
+    <body class="login">
+        <div>
+            <a class="hiddenanchor" id="signin"></a>
 
-      <div class="login_wrapper">
-        <div class="animate form login_form">
-          <section class="login_content">
-            <form action="" method="post">
-              <h1>Login Form</h1>
-              <div>
-                <input type="text" class="form-control" placeholder="Username" name="username" required="" />
-              </div>
-              <div>
-                <input type="password" class="form-control" placeholder="Password" name="password" required="" />
-              </div>
-              <div>
-                <button type="submit" class="btn btn-default btn-block submit">Log in</button>
-              </div>
+            <div class="login_wrapper">
+                <div class="animate form login_form">
+                    <section class="login_content">
+                        <c:if test="${not empty shiroLoginFailure}">
+                            <div class="alert alert-success alert-dismissible fade in" role="alert">
+                                <button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hidden="true">�</span>
+                                </button>
+                                <strong>Login Failed!</strong> Please try again.
+                            </div>
+                        </c:if>
+                        <form action="" method="post">
+                            <h1>Login Form</h1>
+                            <div>
+                                <input type="text" class="form-control" placeholder="Username" name="username" required="" />
+                            </div>
+                            <div>
+                                <input type="password" class="form-control" placeholder="Password" name="password" required="" />
+                            </div>
+                            <div>
+                                <button type="submit" class="btn btn-default btn-block submit">Log in</button>
+                            </div>
 
 
-                <div class="clearfix"></div>
-                <br />
+                            <div class="clearfix"></div>
+                            <br />
 
-                <div>
-                  <h1><i class="fa fa-paw"></i> Pyramid Accounting!</h1>
-                  <p>©2016 Areete Services. All Rights Reserved.</p>
+                            <div>
+                                <h1><i class="fa fa-paw"></i> Pyramid Accounting!</h1>
+                                <p>©2016 Areete Services. All Rights Reserved.</p>
+                            </div>
+                        </form>
+                    </section>
                 </div>
-            </form>
-          </section>
+
+            </div>
         </div>
-		
-      </div>
-    </div>
-  </body>
+    </body>
 </html>
